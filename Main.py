@@ -1,3 +1,5 @@
+from Penjumlahan import jumlah
+from Pengurangan import kurang
 x1 = int(input("componen X untuk Vektor 1 : "))
 y1 = int(input("componen y untuk Vektor 1 : "))
 x2 = int(input("componen X untuk Vektor 2 : "))
@@ -13,3 +15,11 @@ print("4. Sudut antar dua vektor")
 print("5. Dot product")
 print("6. Unit vektor")
 print("7. Keluar")
+pilih = input("pilih : ")
+if pilih == 1
+  C = jumlah(A,B)
+  print(f"{A} + {B} = {C}")
+if pilih == 2
+  D = kurang(A,B)
+  print(f"{A} - {B} = {D}")
+
